@@ -10,9 +10,10 @@
 
  - Clone or download this repository
  - Enter your local directory, and install dependencies:
-
+``` bash
 cnpm install/cnpm i
 
+```
 ## Develop
 
 ``` bash
