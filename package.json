@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --env.dev",
-    "build": "webpack -p --progress --hide-modules"
+    "build": "webpack -p --progress --hide-modules",
+    "prod": " NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
     "element-ui": "^1.4.2",
